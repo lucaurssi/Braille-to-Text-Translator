@@ -16,7 +16,10 @@ Alecxannder Jellicoe Sonnenberg Brizotto Ferreira - 10295707
   
   The input for our program will be images of braille characters, which will be sourced from datasets and searched manualy by the group members.
   
-  Image Source: https://www.kaggle.com/datasets/shanks0465/braille-character-dataset?resource=download
+  Image Source: https://www.kaggle.com/datasets/shanks0465/braille-character-dataset?resource=download, this images contain braile letters in varying conditions
+  of light,noise and quality.
+  
+  Manually Searched/Made: Some of the images were made by us, they are mostly for testing.
   
 - Image processing steps:
   - Pre-processing:
