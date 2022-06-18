@@ -21,7 +21,7 @@ Alecxannder Jellicoe Sonnenberg Brizotto Ferreira - 10295707
 - Image processing steps:
   - Pre-processing:
   
-    For this step we took the input image (from the dataset above) and used Luminance do turn it into grayscale, normalized this image so if it was
+    For this step we took the input image (from the dataset above) and used Luminance to turn it into grayscale, normalized this image so if it was
     too dark, black pixels wouldn't affect the next process, the binarization, using a threshold T to make the regions that have any braile balls get black
     and the space in between them white. As the final process we are planning to use k-means clusterization to detect 0-6 clusters which will give us the 
     center of mass of the circles and that will be used to plot more realistic circles instead of "random stains".
