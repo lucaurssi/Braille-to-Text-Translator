@@ -47,9 +47,13 @@ Alecxannder Jellicoe Sonnenberg Brizotto Ferreira - 10295707
     Once we have more adequate images we will compare, with euclidian distance, them with the ones in our dictionary (made manually by us) and output the respective  '   letter. With this is done we may start working on how to apply it to a full sentence/text by methods we are still to figure out.
     
   - What we are thinking we could possibly use:
+    
     Morphology could prove a better way to approach the problem of finding K in those tricky cases, maybe via blob detection.
+    
     We are going to use K-means to calculate the approximate centroid of the braile blobs, then use them to plot a new image, with better looking circles.
+    
     We will use Euclidian distance or similarity to compare them to images we have acquired that are going to work as a dictionary.
+    
     For sentences and texts we may need to use a CNN or something like that and we don't have any idea how to do this.
    
     
