@@ -25,7 +25,7 @@ Alecxannder Jellicoe Sonnenberg Brizotto Ferreira - 10295707
 ![b1 JPG11whs](https://user-images.githubusercontent.com/26423265/174901564-372cd178-07f0-400d-946a-5e9d04866ff8.jpg) ![b1 JPG3dim](https://user-images.githubusercontent.com/26423265/174901513-08f6cdae-46e3-4664-8723-565ae89f4620.jpg) ![b1 JPG0dim](https://user-images.githubusercontent.com/26423265/174901502-66981c79-a034-4d0f-9532-b4942ff36f88.jpg)
 
 
-  - Manually Searched/Made: Some of the images were made by us, they are mostly for testing.
+  - Manually Searched/Made: Some of the images were made by us (none of these), they are mostly for testing.
   
     Examples:
   
