@@ -27,15 +27,31 @@ Alecxannder Jellicoe Sonnenberg Brizotto Ferreira - 10295707
 - Image processing steps:
   - Pre-processing:
   
-    For this step we took the input image (from the dataset above) and used Luminance to turn it into grayscale, normalized this image so if it was too dark, black pixels wouldn't affect the next process, the binarization, using a threshold T to make the regions that have any braile balls get white and the space in between them black.
+    For this step we took the input image (from the dataset above) and used Luminance to turn it into grayscale, normalized this image so if it was too dark, black pixels wouldn't affect the next process, the binarization, using a threshold T to make the regions that have any braile balls get white and the space in between them black. This step is done separately for each character of the input.
+    - input exemple:
+    
+      ![Silence.png](https://github.com/lucaurssi/Braille-to-Text-Translator/blob/main/Braile%20Dataset/Silence.png)
     
   - Processing:
    
     As the final process we discretize the image, making it into a 2x3 matrix with binary values indicating if there is a dot on the location or not. With the processed matrix we can compare it with a dictionary of known combinations (bralle letters) and return the letter corresponding to the source bralle image.
+    - output from exemple above:
+    
+          "the first silence is described as a hollow or echoiig quiet"
     
  - Text-to-Bralle:
     
-    Comparing the letter to the previous dictionary to find which bralle letter use and printing it to the output, appending images to or words or phrases.
+    The last part of our project receives a letter from input and find the ASCII value of the character, which is used in a array to find the corresponding bralle image which is appended to other images to form words and phrases with bralle.
+     
+     - Exemple:
+     
+        - input: 
+              
+              "the first silence is described as a hollow or echoiig quiet"
+     
+        - output image:
+     
+     ![output_bralle](https://github.com/lucaurssi/Braille-to-Text-Translator/blob/main/Braile%20Dataset/output.png)
     
  - Presentation:
  
