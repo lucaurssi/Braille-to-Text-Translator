@@ -38,5 +38,5 @@ Alecxannder Jellicoe Sonnenberg Brizotto Ferreira - 10295707
     Comparing the letter to the previous dictionary to find which bralle letter use and printing it to the output, appending images to or words or phrases.
     
  - Presentation:
- - 
+ 
     https://youtu.be/pR8FmpfXz6Y
